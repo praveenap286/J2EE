@@ -1,0 +1,19 @@
+class concept_class
+{
+int a,b,c;
+
+void add()
+{
+a=20;
+b=12;
+c=a+b;
+System.out.println(c);
+}
+
+public static void main(String[] praveen)
+{
+concept_class obj1 = new concept_class();
+obj1.add();
+}
+
+}
