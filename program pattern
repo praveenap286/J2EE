@@ -1,0 +1,41 @@
+import java.util.*;
+import java.util.Scanner;
+class program
+{
+public static void main(String [] args)
+{
+int i,j,n;
+
+
+Scanner scan=new Scanner(System.in);
+char[] chars=scan.next().toCharArray();
+
+//char [] chars= new char[n];
+
+
+//char[] chars = {'p', 'r', 'o', 'g', 'r', 'a', 'm'};
+
+int length = chars.length;
+if(length<=20)
+if(length%2==0){
+System.out.println("INVALID");
+}
+else
+for (i=0;i<length;i++)
+{
+for(j=0;j<length;j++)
+{
+if(j==i || (j==length-1-i))
+{
+System.out.print(chars[j]);
+}
+else
+{
+System.out.print(" ");
+}
+}
+System.out.println();
+}
+
+}
+}
