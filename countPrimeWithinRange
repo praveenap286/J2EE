@@ -1,0 +1,19 @@
+import java.util.*;
+class  countPrimeWithinRange{
+public staic void main(String[] args){
+
+  int i,j,count=0;
+		for(i=input1;i<=input2;i++ ){
+			for(j=2;j<i;j++){
+				if(i%j==0){
+					break;
+				}
+			}
+			if(i==j){
+				count++;
+			}
+		}
+	    return count;
+	}
+	
+}
